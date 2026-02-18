@@ -1,0 +1,98 @@
+Website: https://www.skywingcargopackers.in/packer-movers-hyderabad.php
+Testing Type: Manual Testing
+Tester Name: Aditya Kalburgi
+
+This document presents the testing performed on the Skywing Cargo Packers and Movers website. The main goal of this testing was to verify the functionality, usability, and navigation of the Quick Links section available in the footer of the website.
+
+The testing ensures that users can navigate smoothly across important pages without errors or broken links.
+
+________________________________________
+✅ 2. Objective of Testing
+
+The primary objectives of testing include:
+• Verify all Quick Links are functional
+• Validate navigation flow
+• Check UI behavior and usability
+• Identify broken links or errors
+• Ensure responsive and user-friendly experience
+
+________________________________________
+✅ 3. Scope of Testing
+
+Testing focused on the Quick Links section located in the footer of the website.
+
+The following links were tested:
+• Home
+• Our Services
+• Contact Us
+• Packers and Movers Hyderabad
+
+Testing types performed:
+• Functional Testing
+• Navigation Testing
+• UI Testing
+• Negative Testing
+• Responsive Testing
+
+________________________________________
+✅ 4. Test Environment
+
+Parameter	Details
+Browser	Google Chrome
+
+________________________________________
+✅ 5. Testing Approach
+
+Manual testing methodology was used to validate the Quick Links module. Each link was tested individually to verify redirection and user experience. UI behavior such as hover effects, readability, and alignment was also checked.
+
+Tested Links –
+
+Page Name	URL	HTTP Status Code	Result
+Home Page	https://www.skywingcargopackers.in/	200 OK	Page loaded successfully
+Services Page	https://www.skywingcargopackers.in/services.php	200 OK	Page loaded successfully
+Contact Page	https://www.skywingcargopackers.in/contact.php	200 OK	Page loaded successfully
+Packers and Movers Hyderabad Page	https://www.skywingcargopackers.in/packer-movers-hyderabad.php	200 OK	Page loaded successfully
+
+
+________________________________________
+✅ 6. Test Cases Executed
+
+📊 Quick Links Test Cases
+
+Test Case ID	Module	Test Scenario	Test Steps	Expected Result	Actual Result	Status
+TC_QL_001	Quick Links	Verify Home Link Navigation	Click on Home link	User should be redirected to homepage	Redirected to homepage successfully	Pass
+TC_QL_002	Quick Links	Verify Our Services Link	Click on Our Services link	Services page should open	Services page opened correctly	Pass
+TC_QL_003	Quick Links	Verify Contact Us Link	Click on Contact Us link	Contact page should open	Contact page opened correctly	Pass
+TC_QL_004	Quick Links	Verify Packers and Movers Hyderabad Link	Click on Packers and Movers Hyderabad link	Hyderabad service page should open	Hyderabad service page opened correctly	Pass
+TC_QL_005	Quick Links	Verify Broken Links	Click all Quick Links	No 404 or error page should appear	No errors found	Pass
+TC_QL_006	Quick Links	Verify UI Behavior	Hover over Quick Links	Links should highlight and remain readable	UI working correctly	Pass
+
+________________________________________
+✅ 7. Test Result Summary
+
+All Quick Links were tested successfully. Each link redirected to the correct page without navigation issues. The user interface behaved correctly, and all links maintained readability and proper alignment.
+
+________________________________________
+✅ 8. Screenshot Evidence
+
+Screenshot 1 – Quick Links Section
+ 
+
+Screenshot 2 – Home Link Navigation
+ 
+
+Screenshot 3 – Services Page
+ 
+
+Screenshot 4 – Contact Page
+ 
+
+________________________________________
+✅ 9. Defect Summary
+
+No functional or navigation defects were found during testing. All links performed as expected.
+
+________________________________________
+✅ 10. Conclusion
+
+The Quick Links module was tested thoroughly using manual testing techniques. All links are functioning properly and provide a smooth navigation experience. The module is stable, user-friendly, and ready for production use.
